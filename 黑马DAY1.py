@@ -156,3 +156,7 @@ print(f"I know you are {name}")
 num = input("告诉我你的银行卡密码")
 num = int(num)
 print("你的银行卡类型是",type(num)) #得到结果input类型会被认为是字符串，如果要把input弄成number，要进行数据转换
+#exercise
+user_name = input("input your name")
+user_type = input("you vip status")
+print(f"您好：{user_name}，您是尊贵的：{user_type}用户，欢迎光临")
